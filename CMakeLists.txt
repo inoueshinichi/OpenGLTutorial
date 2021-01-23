@@ -59,9 +59,9 @@ endif()
 
 # Global Shared lib flag
 if(BUILD_CPP_SHARED_LIBS)
-    set(BUILD_CPP_SHARED_LIBS ON)
+    set(BUILD_SHARED_LIBS ON)
 else()
-    set(BUILD_CPP_SHARED_LIBS OFF)
+    set(BUILD_SHARED_LIBS OFF)
 endif()
 
 
